@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.28;
 
+/**
+ * @title PetRegistry
+ * @dev Контракт для регистрации питомцев пользователей
+ */
 contract PetRegistry {
     address public owner;
     
