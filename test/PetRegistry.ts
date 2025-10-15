@@ -32,6 +32,8 @@ describe("PetRegistry", function () {
       expect(name).to.equal(petName);
       expect(age).to.equal(petAge);
       expect(vaccinated).to.equal(isVaccinated);
+      // Намеренная ошибка для тестирования workflow
+      expect(age).to.equal(999);
     });
 
     it("Should not allow duplicate pet registration", async function () {
